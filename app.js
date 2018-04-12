@@ -10,6 +10,8 @@ const mongoose = require('mongoose');
 mongoose.Promise = require('bluebird');
 
 const Dishes = require('./models/dishes');
+const promotions = require('./models/promotions');
+const leaders = require('./models/leaders');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
